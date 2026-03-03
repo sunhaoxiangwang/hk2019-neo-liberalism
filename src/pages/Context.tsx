@@ -11,6 +11,7 @@ const sections = [
     ],
     pullQuote:
       "Behind the political demands lay decades of economic anxiety—a city where prosperity was visible everywhere yet out of reach for many.",
+    image: "https://images.pexels.com/photos/6295359/pexels-photo-6295359.jpeg",
   },
   {
     heading: "The Price of the Free Market",
@@ -21,6 +22,7 @@ const sections = [
     pullQuote:
       'The world\'s "freest economy" produced a generation who could not afford to live in the city they called home.',
     reversed: true,
+    image: "https://images.pexels.com/photos/6752828/pexels-photo-6752828.jpeg",
   },
 ];
 

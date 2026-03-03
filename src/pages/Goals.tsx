@@ -11,6 +11,7 @@ const sections = [
     ],
     pullQuote:
       '"Five demands, not one less"—a generation\'s refusal to accept half-measures or symbolic gestures.',
+    image: "https://images.pexels.com/photos/8898666/pexels-photo-8898666.jpeg",
   },
   {
     heading: "Decentralized by Design",
@@ -21,6 +22,7 @@ const sections = [
     pullQuote:
       "Without leaders to arrest or organizations to ban, the movement became something authorities had never faced—a protest that was everywhere and nowhere at once.",
     reversed: true,
+    image: "https://images.pexels.com/photos/9751016/pexels-photo-9751016.jpeg",
   },
 ];
 

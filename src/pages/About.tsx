@@ -11,6 +11,7 @@ const sections = [
     ],
     pullQuote:
       '"Be water"—the movement\'s defining philosophy of fluid, decentralized resistance that kept authorities perpetually off-balance.',
+    image: "https://images.pexels.com/photos/9751021/pexels-photo-9751021.jpeg",
   },
   {
     heading: "From Bill to Broad Movement",
@@ -21,6 +22,7 @@ const sections = [
     pullQuote:
       "A single bill became the catalyst for a city to confront the fundamental question: what does autonomy mean when power is not your own?",
     reversed: true,
+    image: "https://images.pexels.com/photos/9751034/pexels-photo-9751034.jpeg",
   },
 ];
 
