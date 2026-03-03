@@ -1,0 +1,126 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "inlined",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "mCgSKqoCZfXdgUpVB4rK7X",
+      "projectApiToken": "fCuLoExvNdNWLSvTUmy5i9tge3pH0LIplnJTCUkBMh301wV3N5ncUIDvjrD7QCHbNhHEXiwAH2FU5Y3Ss4EbA",
+      "projectName": "hk19-neoliberalism",
+      "version": "latest",
+      "cssFilePath": "plasmic/hk_19_neoliberalism/plasmic.module.css",
+      "components": [
+        {
+          "id": "20bnfPCicx-k",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "mCgSKqoCZfXdgUpVB4rK7X",
+          "renderModuleFilePath": "plasmic/hk_19_neoliberalism/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/hk_19_neoliberalism/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "styleTokensProviderFilePath": "plasmic/hk_19_neoliberalism/PlasmicStyleTokensProvider.tsx",
+      "dataTokensFilePath": "",
+      "projectModuleFilePath": "plasmic/hk_19_neoliberalism/plasmic.tsx",
+      "codeComponents": [
+        {
+          "id": "1usunjsMnOqY",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "mColjRq4Am49",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "tVoq_b5He03x",
+          "name": "PageHero",
+          "displayName": "PageHero",
+          "componentImportPath": "./components/PageHero"
+        },
+        {
+          "id": "LdMYTeTg5iac",
+          "name": "PageContent",
+          "displayName": "PageContent",
+          "componentImportPath": "./components/PageContent"
+        },
+        {
+          "id": "5D-G3k91bVZn",
+          "name": "StatsGrid",
+          "displayName": "StatsGrid",
+          "componentImportPath": "./components/StatsGrid"
+        },
+        {
+          "id": "uK0F74FkulCa",
+          "name": "HomePage",
+          "displayName": "HomePage",
+          "componentImportPath": "./pages/Home"
+        },
+        {
+          "id": "VaCTPrwCJ7d0",
+          "name": "AboutPage",
+          "displayName": "AboutPage",
+          "componentImportPath": "./pages/About"
+        },
+        {
+          "id": "GDsUNpFBzsSE",
+          "name": "ContextPage",
+          "displayName": "ContextPage",
+          "componentImportPath": "./pages/Context"
+        },
+        {
+          "id": "9tb_BzGpgQSc",
+          "name": "GoalsPage",
+          "displayName": "GoalsPage",
+          "componentImportPath": "./pages/Goals"
+        },
+        {
+          "id": "EnZ5L18Vz6tQ",
+          "name": "OutcomePage",
+          "displayName": "OutcomePage",
+          "componentImportPath": "./pages/Outcome"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "preserveJsImportExtensions": false,
+  "cliVersion": "0.1.359",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.359/dist/plasmic.schema.json"
+}

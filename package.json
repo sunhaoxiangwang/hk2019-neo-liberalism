@@ -10,8 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@plasmicapp/host": "^1.0.238",
-    "@plasmicapp/loader-react": "^1.0.414",
+    "@builder.io/react": "^9.1.2",
+    "@builder.io/sdk": "^6.2.1",
+    "@plasmicapp/react-web": "^0.2.423",
     "framer-motion": "^12.34.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
