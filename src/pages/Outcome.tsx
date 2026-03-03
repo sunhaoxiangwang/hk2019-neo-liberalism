@@ -11,6 +11,7 @@ const sections = [
     ],
     pullQuote:
       "The streets fell quiet, but the questions the movement raised about autonomy, identity, and resistance echo still.",
+    image: "https://images.pexels.com/photos/5343099/pexels-photo-5343099.jpeg",
   },
   {
     heading: "A Legacy Beyond Legislation",
@@ -21,6 +22,7 @@ const sections = [
     pullQuote:
       "The movement ended, but its questions—about who holds power, who deserves freedom, and what people will risk to defend it—remain unanswered.",
     reversed: true,
+    image: "https://images.pexels.com/photos/11302458/pexels-photo-11302458.jpeg",
   },
 ];
 

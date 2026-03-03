@@ -7,6 +7,7 @@ interface PageContentProps {
     body: string[];
     pullQuote: string;
     reversed?: boolean;
+    image?: string;
   }[];
 }
 
@@ -25,6 +26,7 @@ function ContentBlock({
   body,
   pullQuote,
   reversed,
+  image,
 }: PageContentProps["sections"][number]) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
@@ -37,7 +39,7 @@ function ContentBlock({
             reversed ? "direction-rtl" : ""
           }`}
         >
-          {/* Pull quote + image placeholder */}
+          {/* Pull quote + image container */}
           <motion.div
             initial={{ opacity: 0, x: reversed ? 40 : -40 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -49,16 +51,24 @@ function ContentBlock({
             className={`lg:col-span-5 ${reversed ? "lg:order-2" : "lg:order-1"}`}
             style={{ direction: "ltr" }}
           >
-            {/* Image placeholder */}
+            {/* Image container */}
             <div className="mb-8 aspect-[4/3] overflow-hidden rounded-2xl bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460] ring-1 ring-white/5">
-              <div
-                className="h-full w-full opacity-20"
-                style={{
-                  backgroundImage:
-                    "linear-gradient(135deg, transparent 25%, rgba(230,57,70,0.1) 25%, rgba(230,57,70,0.1) 50%, transparent 50%, transparent 75%, rgba(230,57,70,0.1) 75%)",
-                  backgroundSize: "20px 20px",
-                }}
-              />
+              {image ? (
+                <img
+                  src={image}
+                  alt={heading}
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <div
+                  className="h-full w-full opacity-20"
+                  style={{
+                    backgroundImage:
+                      "linear-gradient(135deg, transparent 25%, rgba(230,57,70,0.1) 25%, rgba(230,57,70,0.1) 50%, transparent 50%, transparent 75%, rgba(230,57,70,0.1) 75%)",
+                    backgroundSize: "20px 20px",
+                  }}
+                />
+              )}
             </div>
 
             <blockquote className="border-l-2 border-[var(--color-accent)] pl-6">
