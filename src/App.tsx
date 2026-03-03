@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion, useInView } from "framer-motion";
-import { useRef, useEffect } from "react";
+import { Suspense, useRef, useEffect, lazy } from "react";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Context from "./pages/Context";
 import Goals from "./pages/Goals";
 import Outcome from "./pages/Outcome";
+
+// Lazy-load Plasmic host so its ~200KB runtime doesn't bloat the main bundle
+const PlasmicHostPage = lazy(() => import("./pages/PlasmicHost"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -76,9 +79,20 @@ function AnimatedRoutes() {
   );
 }
 
-export default function App() {
+function AppRoutes() {
+  const location = useLocation();
+
+  // Plasmic host page gets a bare render — no header, footer, or animations
+  if (location.pathname === "/plasmic-host") {
+    return (
+      <Suspense>
+        <PlasmicHostPage />
+      </Suspense>
+    );
+  }
+
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <div className="min-h-screen bg-[var(--color-surface)] text-[var(--color-text-primary)]">
         <Header />
@@ -86,6 +100,14 @@ export default function App() {
           <AnimatedRoutes />
         </main>
       </div>
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
     </BrowserRouter>
   );
 }
