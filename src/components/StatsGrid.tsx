@@ -9,7 +9,7 @@ interface StatCard {
 
 const stats: StatCard[] = [
   {
-    figure: "2M+",
+    figure: "statistic",
     label: "Peak March Turnout",
     description:
       "An estimated two million people—nearly one-third of Hong Kong's population—took to the streets on June 16, 2019.",
