@@ -17,7 +17,7 @@ const stats: StatCard[] = [
     figure: "5",
     label: "Core Demands",
     description:
-      'The movement unified around five non-negotiable demands, crystallized in the slogan "Five demands, not one less."',
+      'The slogan "Five demands, not one less" encapsulated the attitude of protestors.',
   },
   {
     figure: "9,000+",
