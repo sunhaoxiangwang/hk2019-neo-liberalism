@@ -113,8 +113,8 @@ export default function StatsGrid() {
                 MIT Technology Review
               </p>
               <p className="max-w-lg text-sm font-semibold leading-relaxed text-white/90 sm:text-base">
-                The new battle in Hong Kong isn't on the streets; it's in the
-                apps
+                "The new battle in Hong Kong isn't on the streets; it's in the
+                apps"
               </p>
             </div>
           </a>
