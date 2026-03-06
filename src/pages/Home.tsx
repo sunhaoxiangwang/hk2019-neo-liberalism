@@ -110,7 +110,7 @@ export default function Home() {
         label="A Digital Historical Project"
         title="HONG KONG"
         titleAccent="2019"
-        subtitle="When millions stood against erosion of autonomy—a movement that shook the foundations of power and echoed across the world."
+        subtitle="Dramatic/impactful description - group decides in class"
         backgroundImage="/images/hero-protest.jpeg"
       />
       <PageLinks />
