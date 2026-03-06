@@ -41,7 +41,7 @@ const stats: StatCard[] = [
     figure: "2020",
     label: "National Security Law",
     description:
-      "Beijing imposed sweeping security legislation that fundamentally transformed Hong Kong's legal and political landscape.",
+      "Beijing imposed groundbreaking security legislation that changed the political and legal landscape of Hong Kong forever.",
   },
 ];
 
