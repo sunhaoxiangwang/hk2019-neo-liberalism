@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const navLinks = [
   { label: "About", to: "/about" },
   { label: "Historical Context", to: "/context" },
-  { label: "Impactful quote/phrase from article/news source", to: "/goals" },
+  { label: "Movement Goals", to: "/goals" },
   { label: "Protest Outcome", to: "/outcome" },
 ];
 

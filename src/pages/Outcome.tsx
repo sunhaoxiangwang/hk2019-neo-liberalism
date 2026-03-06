@@ -4,22 +4,21 @@ import StatsGrid from "../components/StatsGrid";
 
 const sections = [
   {
-    heading: "Aftermath & the National Security Law",
+    heading: "Subsection Title",
     body: [
-      "The movement's immediate political outcomes were sobering. While the extradition bill was formally withdrawn in September 2019, the remaining four demands went unmet. The subsequent imposition of the National Security Law in June 2020 fundamentally reshaped Hong Kong's political landscape.",
-      "The law criminalized secession, subversion, terrorism, and collusion with foreign forces—broadly defined terms that critics said could apply to almost any form of dissent. Dozens of pro-democracy figures were arrested, media outlets shuttered, and civil society organizations dissolved.",
+      "Subsection Text",
+      "Subsection Text",
     ],
     pullQuote: "Impactful quote/phrase from article or news source",
     image: "https://images.pexels.com/photos/5343099/pexels-photo-5343099.jpeg",
   },
   {
-    heading: "A Legacy Beyond Legislation",
+    heading: "Subsection Title",
     body: [
-      "Yet the legacy of 2019 extends far beyond legislation. It demonstrated the power of decentralized organizing, inspired solidarity movements worldwide, and indelibly altered the political consciousness of an entire generation of Hong Kongers.",
-      "The diaspora that formed in the wake of the crackdown carried the movement's spirit to new shores—London, Toronto, Taipei, Melbourne. In exile and at home, the memory of those months when a city demanded its voice be heard continues to shape how people think about resistance, freedom, and the cost of both.",
+      "Subsection Text",
+      "Subsection Text",
     ],
-    pullQuote:
-      "The movement ended, but its questions—about who holds power, who deserves freedom, and what people will risk to defend it—remain unanswered.",
+    pullQuote: "Impactful quote/phrase from article or news source",
     reversed: true,
     image: "https://images.pexels.com/photos/11302458/pexels-photo-11302458.jpeg",
   },
