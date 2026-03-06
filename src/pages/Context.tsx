@@ -31,7 +31,7 @@ export default function Context() {
     <>
       <PageHero
         label="Historical Context"
-        title="Placeholder Phrase"
+        title="Placeholder phrase"
         subtitle="Section Summary/Description"
         backgroundImage="/images/hero-context.jpg"
       />
