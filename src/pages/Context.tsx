@@ -9,8 +9,7 @@ const sections = [
       "Subsection Text",
       "Subsection Text",
     ],
-    pullQuote:
-      "Behind the political demands lay decades of economic anxiety—a city where prosperity was visible everywhere yet out of reach for many.",
+    pullQuote: "Dramatic/Impactful Quote from an article/news source",
     image: "https://images.pexels.com/photos/6295359/pexels-photo-6295359.jpeg",
   },
   {
@@ -19,8 +18,7 @@ const sections = [
       "Subsection Text",
       "Subsection Text",
     ],
-    pullQuote:
-      'The world\'s "freest economy" produced a generation who could not afford to live in the city they called home.',
+    pullQuote: "Dramatic/Impactful Quote from an article/news source",
     reversed: true,
     image: "https://images.pexels.com/photos/6752828/pexels-photo-6752828.jpeg",
   },
