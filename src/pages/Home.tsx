@@ -15,8 +15,7 @@ const pages = [
     to: "/context",
     label: "02",
     title: "Historical Context",
-    description:
-      "Decades of neoliberal governance and the socioeconomic tensions that fueled the uprising.",
+    description: "Section Summary/Description",
   },
   {
     to: "/goals",

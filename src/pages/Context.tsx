@@ -32,7 +32,7 @@ export default function Context() {
       <PageHero
         label="Historical Context"
         title="The Roots of Discontent"
-        subtitle="Decades of neoliberal governance, staggering inequality, and the socioeconomic tensions that set the stage for 2019."
+        subtitle="Section Summary/Description"
         backgroundImage="/images/hero-context.jpg"
       />
       <PageContent sections={sections} />
