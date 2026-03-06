@@ -9,8 +9,7 @@ const pages = [
     to: "/about",
     label: "01",
     title: "About",
-    description:
-      "How a proposed extradition bill ignited the largest protest movement in Hong Kong's history.",
+    description: "Section Summary/Description",
   },
   {
     to: "/context",

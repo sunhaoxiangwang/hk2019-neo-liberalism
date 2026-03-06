@@ -32,7 +32,7 @@ export default function About() {
       <PageHero
         label="About the Movement"
         title="A City's Defining Moment"
-        subtitle="How a proposed extradition bill ignited the largest protest movement in Hong Kong's history and reshaped its political landscape."
+        subtitle="Section Summary/Description"
         backgroundImage="/images/hero-about.jpg"
       />
       <PageContent sections={sections} />
