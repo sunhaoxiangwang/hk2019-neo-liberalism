@@ -9,8 +9,7 @@ const sections = [
       "The movement's immediate political outcomes were sobering. While the extradition bill was formally withdrawn in September 2019, the remaining four demands went unmet. The subsequent imposition of the National Security Law in June 2020 fundamentally reshaped Hong Kong's political landscape.",
       "The law criminalized secession, subversion, terrorism, and collusion with foreign forces—broadly defined terms that critics said could apply to almost any form of dissent. Dozens of pro-democracy figures were arrested, media outlets shuttered, and civil society organizations dissolved.",
     ],
-    pullQuote:
-      "The streets fell quiet, but the questions the movement raised about autonomy, identity, and resistance echo still.",
+    pullQuote: "Impactful quote/phrase from article or news source",
     image: "https://images.pexels.com/photos/5343099/pexels-photo-5343099.jpeg",
   },
   {
