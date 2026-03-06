@@ -4,19 +4,19 @@ import StatsGrid from "../components/StatsGrid";
 
 const sections = [
   {
-    heading: "The Five Demands",
+    heading: "Subsection Title",
     body: [
-      "The protest movement crystallized around five core demands: full withdrawal of the extradition bill, an independent investigation into police conduct, release of arrested protesters, retraction of the classification of protests as 'riots,' and genuine universal suffrage.",
-      'The rallying cry "Five demands, not one less" reflected an uncompromising stance born from years of broken promises. Protesters understood that partial concessions without structural reform would leave the underlying power imbalance intact.',
+      "Subsection Text",
+      "Subsection Text",
     ],
     pullQuote: "Dramatic/Impactful Quote from an article/news source",
     image: "https://images.pexels.com/photos/8898666/pexels-photo-8898666.jpeg",
   },
   {
-    heading: "Decentralized by Design",
+    heading: "Subsection Title",
     body: [
-      "Unlike previous movements, the 2019 protests had no single leader, no central organization, and no fixed hierarchy. Decisions were made collectively through online forums and encrypted messaging apps. Roles shifted fluidly—someone who supplied first aid one day might lead chants the next.",
-      'This "be water" philosophy, inspired by Bruce Lee, made the movement extraordinarily resilient. When authorities targeted one gathering, protesters would disperse and reappear elsewhere. When one communication channel was blocked, another emerged within hours.',
+      "Subsection Text",
+      "Subsection Text",
     ],
     pullQuote: "Dramatic/Impactful Quote from an article/news source",
     reversed: true,
