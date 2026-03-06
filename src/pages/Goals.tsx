@@ -31,7 +31,7 @@ export default function Goals() {
     <>
       <PageHero
         label="Movement Goals"
-        title="Five Demands, Not One Less"
+        title="Placeholder Phrase - MG Group Decides"
         subtitle="Section Summary/Description"
         backgroundImage="/images/hero-goals.jpg"
       />
