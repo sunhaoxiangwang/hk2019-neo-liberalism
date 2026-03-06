@@ -29,7 +29,7 @@ const stats: StatCard[] = [
     figure: "180+",
     label: "Days of Protest",
     description:
-      "Sustained demonstrations lasted over half a year, making it one of the longest protest movements in modern history.",
+      "Continuous demonstrations lasted over half a year, making for one of the longest protest movements in the last hundred years.",
   },
   {
     figure: "1997",
