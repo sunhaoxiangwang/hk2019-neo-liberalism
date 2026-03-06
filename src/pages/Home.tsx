@@ -21,15 +21,13 @@ const pages = [
     to: "/goals",
     label: "03",
     title: "Movement Goals",
-    description:
-      'The five demands and the uncompromising stance behind "not one less."',
+    description: "Section Summary/Description",
   },
   {
     to: "/outcome",
     label: "04",
     title: "Protest Outcome",
-    description:
-      "The aftermath, the National Security Law, and the enduring legacy of 2019.",
+    description: "Section Summary/Description",
   },
 ];
 

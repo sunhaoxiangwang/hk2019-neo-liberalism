@@ -32,7 +32,7 @@ export default function Goals() {
       <PageHero
         label="Movement Goals"
         title="Five Demands, Not One Less"
-        subtitle='The uncompromising demands that defined a movement and the decentralized strategy behind "be water."'
+        subtitle="Section Summary/Description"
         backgroundImage="/images/hero-goals.jpg"
       />
       <PageContent sections={sections} />

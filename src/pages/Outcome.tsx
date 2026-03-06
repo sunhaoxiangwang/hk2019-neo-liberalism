@@ -32,7 +32,7 @@ export default function Outcome() {
       <PageHero
         label="Protest Outcome"
         title="Aftermath & Legacy"
-        subtitle="The National Security Law, the global diaspora, and why the echoes of 2019 refuse to fade."
+        subtitle="Section Summary/Description"
         backgroundImage="/images/hero-outcome.jpg"
       />
       <PageContent sections={sections} />
