@@ -35,7 +35,7 @@ const stats: StatCard[] = [
     figure: "1997",
     label: "Handover Year",
     description:
-      'Hong Kong was returned to China under a "One Country, Two Systems" framework—the very framework protesters sought to defend.',
+      "Hong Kong was returned to China under an independent system, which protestors fought to protect more than 20 years later.",
   },
   {
     figure: "2020",
