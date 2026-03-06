@@ -31,7 +31,7 @@ export default function Context() {
     <>
       <PageHero
         label="Historical Context"
-        title="The Roots of Discontent"
+        title="Placeholder Phrase"
         subtitle="Section Summary/Description"
         backgroundImage="/images/hero-context.jpg"
       />
