@@ -31,7 +31,7 @@ export default function Outcome() {
     <>
       <PageHero
         label="Protest Outcome"
-        title="Aftermath & Legacy"
+        title="Placeholder phrase - PO Group Decides"
         subtitle="Section Summary/Description"
         backgroundImage="/images/hero-outcome.jpg"
       />
