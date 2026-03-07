@@ -83,10 +83,6 @@ export default function StatsGrid() {
           <h2 className="text-3xl font-extrabold tracking-tight text-[var(--color-text-primary)] sm:text-4xl">
             The Movement in Numbers
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-[var(--color-text-secondary)] sm:text-lg">
-            A quantitative snapshot of the scale, duration, and consequences of
-            the 2019 protests.
-          </p>
         </motion.div>
 
         {/* Featured image: The digital battle */}
