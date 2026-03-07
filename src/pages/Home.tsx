@@ -6,26 +6,20 @@ import StatsGrid from "../components/StatsGrid";
 
 const pages = [
   {
-    to: "/about",
-    label: "01",
-    title: "About",
-    description: "Section Summary/Description",
-  },
-  {
     to: "/context",
-    label: "02",
+    label: "01",
     title: "Historical Context",
     description: "Section Summary/Description",
   },
   {
     to: "/goals",
-    label: "03",
+    label: "02",
     title: "Movement Goals",
     description: "Section Summary/Description",
   },
   {
     to: "/outcome",
-    label: "04",
+    label: "03",
     title: "Protest Outcomes",
     description: "Section Summary/Description",
   },
@@ -47,7 +41,7 @@ function PageLinks() {
           Explore
         </motion.p>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6">
           {pages.map((page, i) => (
             <motion.div
               key={page.to}
@@ -61,23 +55,23 @@ function PageLinks() {
             >
               <Link
                 to={page.to}
-                className="group flex h-full flex-col justify-between rounded-2xl border border-white/[0.06] bg-[var(--color-surface-elevated)] p-8 transition-all duration-400 hover:-translate-y-1 hover:border-[var(--color-accent)]/20 hover:shadow-[0_8px_40px_rgba(230,57,70,0.06)]"
+                className="group flex flex-col justify-between rounded-2xl border border-white/[0.06] bg-[var(--color-surface-elevated)] p-10 transition-all duration-400 hover:-translate-y-1 hover:border-[var(--color-accent)]/20 hover:shadow-[0_8px_40px_rgba(230,57,70,0.06)] sm:flex-row sm:items-center"
               >
-                <div>
+                <div className="flex-1">
                   <span className="text-xs font-bold tracking-widest text-[var(--color-accent)]">
                     {page.label}
                   </span>
-                  <h3 className="mt-3 text-xl font-extrabold tracking-tight sm:text-2xl">
+                  <h3 className="mt-3 text-2xl font-extrabold tracking-tight sm:text-3xl">
                     {page.title}
                   </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-[var(--color-text-secondary)]">
+                  <p className="mt-3 max-w-2xl text-base leading-relaxed text-[var(--color-text-secondary)]">
                     {page.description}
                   </p>
                 </div>
-                <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-[var(--color-accent)] opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <div className="mt-8 flex items-center gap-2 text-sm font-semibold text-[var(--color-accent)] opacity-60 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100 sm:mt-0">
                   Read more
                   <svg
-                    className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
+                    className="h-4 w-4"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

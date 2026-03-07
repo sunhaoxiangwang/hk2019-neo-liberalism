@@ -3,7 +3,6 @@ import { NavLink, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "About", to: "/about" },
   { label: "Historical Context", to: "/context" },
   { label: "Movement Goals", to: "/goals" },
   { label: "Protest Outcomes", to: "/outcome" },
