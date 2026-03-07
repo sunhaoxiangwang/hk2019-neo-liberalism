@@ -8,7 +8,7 @@ const sections = [
     body: [
       "Hong Kong’s expansive history began with its incorporation into Imperial China during the Qin Dynasty, usually dated at 214 BCE. For much of the next 2,000 years, it remained under Chinese rule, serving as a coastal outpost focused on farming, fishing, salt production, and small-scale trade.",
     ],
-    pullQuote: "Two millennia of Chinese governance established the foundations of a coastal society.",
+    pullQuote: "Two thousand years of history established on a coastal society",
     image: "https://images.pexels.com/photos/5403291/pexels-photo-5403291.jpeg",
   },
   {
@@ -18,7 +18,7 @@ const sections = [
       "The British Empire began to further consolidate its power in 1856, the beginning of the Second Opium War. Britain’s triumph was manifested in the Convention of Peking in 1860, in which the Kowloon Peninsula, south of a dividing line known as Boundary Street, was ceded to Britain in perpetuity.",
       "As the 1800s went on, China was subject to further pressure from European powers. In 1898, Britain negotiated the consequential Second Convention of Peking, where the New Territories were leased to the British Empire for 99 years. Set to expire on July 1, 1997, the contract was significant in being the last step in the British Empire gaining control over the entirety of modern-day Hong Kong.",
     ],
-    pullQuote: "Treaties and conflict reshaped the destiny of a territory, moving it from one empire to another.",
+    pullQuote: "Treaties and conflict gradually reshaped the territory over time",
     reversed: true,
     image: "https://images.pexels.com/photos/7117112/pexels-photo-7117112.jpeg",
   },
@@ -28,7 +28,7 @@ const sections = [
       "Almost 50 years after the Second Convention of Peking, during World War II, Japanese forces invaded and occupied Hong Kong for a brief 4-year period between 1941 and 1945, before Britain resumed control. Unlike many other decolonizing regions of the world during this period, Hong Kong remained a British colony.",
       "Approaching the end of the 99-year lease, Britain and China negotiated the 1984 Sino-British Joint Declaration. Due to the immense interconnection between the different Hong Kong regions, in addition to the New Territories that were the only region originally denoted in the Convention, Hong Kong Island and the Kowloon Peninsula were also transferred to China on July 1, 1997. As part of the declaration, Hong Kong would become a Special Administrative Region of China; Hong Kong would be “one country, two systems” - in return for civil and political liberties, Hong Kong would be annexed into China under a continuing capitalist economy.",
     ],
-    pullQuote: "The 1984 declaration promised a unique autonomy, defining the 'One Country, Two Systems' framework.",
+    pullQuote: "The 1984 declaration brought autonomy to the city with the 'One Country, Two Systems' framework.",
     image: "https://images.pexels.com/photos/35486705/pexels-photo-35486705.jpeg",
   },
   {
@@ -36,7 +36,7 @@ const sections = [
     body: [
       "Hong Kong’s long, winding history of being colonized, traded, and occupied has instilled a sense of pride in its citizens who value their hard-fought political and social rights. As a result, all infringements of these rights, specifically those involving a potential loss of sovereignty, are taken extremely seriously - a large factor contributing to the 2019 Hong Kong Protests.",
     ],
-    pullQuote: "A century and a half of history lives on in the identity and resistance of modern Hong Kongers.",
+    pullQuote: "Over 150 years of history is represented in the voices and actions of modern Hong Kong citizens.",
     reversed: true,
     image: "https://images.pexels.com/photos/9751023/pexels-photo-9751023.jpeg",
   },
