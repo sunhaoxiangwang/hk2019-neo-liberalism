@@ -26,7 +26,7 @@ const pages = [
   {
     to: "/outcome",
     label: "04",
-    title: "Protest Outcome",
+    title: "Protest Outcomes",
     description: "Section Summary/Description",
   },
 ];

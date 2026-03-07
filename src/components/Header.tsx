@@ -6,7 +6,7 @@ const navLinks = [
   { label: "About", to: "/about" },
   { label: "Historical Context", to: "/context" },
   { label: "Movement Goals", to: "/goals" },
-  { label: "Protest Outcome", to: "/outcome" },
+  { label: "Protest Outcomes", to: "/outcome" },
 ];
 
 export default function Header() {
