@@ -9,7 +9,7 @@ const sections = [
       "Hong Kong’s expansive history began with its incorporation into Imperial China during the Qin Dynasty, usually dated at 214 BCE. For much of the next 2,000 years, it remained under Chinese rule, serving as a coastal outpost focused on farming, fishing, salt production, and small-scale trade.",
     ],
     pullQuote: "Two millennia of Chinese governance established the foundations of a coastal society.",
-    image: "https://images.pexels.com/photos/9267826/pexels-photo-9267826.jpeg",
+    image: "https://images.pexels.com/photos/5403291/pexels-photo-5403291.jpeg",
   },
   {
     heading: "Opium Wars and British Control",
@@ -38,6 +38,7 @@ const sections = [
     ],
     pullQuote: "A century and a half of history lives on in the identity and resistance of modern Hong Kongers.",
     reversed: true,
+    image: "https://images.pexels.com/photos/9751023/pexels-photo-9751023.jpeg",
   },
 ];
 
@@ -48,7 +49,7 @@ export default function History() {
         label="History of Hong Kong"
         title="From Empire to Empire"
         subtitle=""
-        backgroundImage="/images/hero-history.jpg"
+        backgroundImage="https://images.pexels.com/photos/19856888/pexels-photo-19856888.jpeg"
       />
       <PageContent sections={sections} />
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
