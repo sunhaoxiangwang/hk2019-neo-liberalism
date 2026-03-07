@@ -29,8 +29,8 @@ export default function Context() {
     <>
       <PageHero
         label="Historical Context"
-        title="Placeholder phrase - HC Group Decides"
-        subtitle="Section Summary/Description"
+        title="The Roots of Discontent"
+        subtitle=""
         backgroundImage="/images/hero-context.jpg"
       />
       <PageContent sections={sections} />

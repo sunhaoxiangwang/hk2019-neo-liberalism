@@ -29,8 +29,8 @@ export default function Outcome() {
     <>
       <PageHero
         label="Protest Outcomes"
-        title="Placeholder phrase - PO Group Decides"
-        subtitle="Section Summary/Description"
+        title="Aftermath & Legacy"
+        subtitle=""
         backgroundImage="/images/hero-outcome.jpg"
       />
       <PageContent sections={sections} />

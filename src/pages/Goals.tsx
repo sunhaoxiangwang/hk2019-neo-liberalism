@@ -29,8 +29,8 @@ export default function Goals() {
     <>
       <PageHero
         label="Movement Goals"
-        title="Placeholder Phrase - MG Group Decides"
-        subtitle="Section Summary/Description"
+        title="Five Demands, Not One Less"
+        subtitle=""
         backgroundImage="/images/hero-goals.jpg"
       />
       <PageContent sections={sections} />
