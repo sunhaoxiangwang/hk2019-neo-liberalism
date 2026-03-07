@@ -3,7 +3,7 @@ import { AnimatePresence, motion, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import History from "./pages/History";
 import Context from "./pages/Context";
 import Goals from "./pages/Goals";
 import Outcome from "./pages/Outcome";
@@ -68,7 +68,7 @@ function AnimatedRoutes() {
       >
         <Routes location={location}>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/history" element={<History />} />
           <Route path="/context" element={<Context />} />
           <Route path="/goals" element={<Goals />} />
           <Route path="/outcome" element={<Outcome />} />

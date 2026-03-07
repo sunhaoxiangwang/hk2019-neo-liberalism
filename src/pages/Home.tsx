@@ -6,20 +6,26 @@ import StatsGrid from "../components/StatsGrid";
 
 const pages = [
   {
-    to: "/context",
+    to: "/history",
     label: "01",
+    title: "History of Hong Kong",
+    description: "Section Summary/Description",
+  },
+  {
+    to: "/context",
+    label: "02",
     title: "Historical Context",
     description: "Section Summary/Description",
   },
   {
     to: "/goals",
-    label: "02",
+    label: "03",
     title: "Movement Goals",
     description: "Section Summary/Description",
   },
   {
     to: "/outcome",
-    label: "03",
+    label: "04",
     title: "Protest Outcomes",
     description: "Section Summary/Description",
   },
