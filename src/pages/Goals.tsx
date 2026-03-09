@@ -1,6 +1,5 @@
 import PageHero from "../components/PageHero";
 import PageContent from "../components/PageContent";
-import StatsGrid from "../components/StatsGrid";
 
 const sections = [
   {
@@ -34,10 +33,6 @@ export default function Goals() {
         backgroundImage="/images/hero-goals.jpg"
       />
       <PageContent sections={sections} />
-      <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-      </div>
-      <StatsGrid />
     </>
   );
 }
