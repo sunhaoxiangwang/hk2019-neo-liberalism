@@ -106,7 +106,7 @@ export default function Home() {
         label="A Digital Historical Project"
         title="HONG KONG"
         titleAccent="2019"
-        subtitle="Dramatic/impactful description - group decides in class"
+        subtitle="The movement that shook a city and beyond"
         backgroundImage="/images/hero-protest.jpeg"
       />
       <PageLinks />
