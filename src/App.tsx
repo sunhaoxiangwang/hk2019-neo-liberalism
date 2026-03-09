@@ -22,11 +22,20 @@ function ScrollToTop() {
 function Footer() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
+  const { pathname } = useLocation();
 
-  const sources = [
+  const homeSources = [
     "(1) Ho, Kelly, and Kelly Ho. \"Almost 3,000 People, Including 517 Minors, Prosecuted so Far Over 2019 Hong Kong Protests.\" Hong Kong Free Press HKFP, 27 Oct. 2022, hongkongfp.com/2022/10/27/almost-3000-people-including-517-minors-prosecuted-so-far-over-2019-hong-kong-protests.",
     "(2) BBC News. Hong Kong Protest: \"Nearly Two Million\" Join Demonstration. 17 June 2019, www.bbc.com/news/world-asia-china-48656471.",
   ];
+
+  const fillerSources = [
+    "Filler Source: Lastname, Firstname. \"The Evolution of Digital Protests.\" Academic Journal of Social Change, 2024.",
+    "Filler Source: Global Policy Institute. \"Case Studies in Political Resistance: Hong Kong 2019.\" research-repository.org, 2025.",
+    "Filler Source: Urban Studies Collective. (2026). Neoliberalism and Local Autonomy in Modern Cities. Open Press.",
+  ];
+
+  const sources = pathname === "/" ? homeSources : fillerSources;
 
   return (
     <footer
