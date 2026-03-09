@@ -23,6 +23,12 @@ function Footer() {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
 
+  const fillerSources = [
+    "Filler Source: Lastname, Firstname. \"The Evolution of Digital Protests.\" Academic Journal of Social Change, 2024.",
+    "Filler Source: Global Policy Institute. \"Case Studies in Political Resistance: Hong Kong 2019.\" research-repository.org, 2025.",
+    "Filler Source: Urban Studies Collective. (2026). Neoliberalism and Local Autonomy in Modern Cities. Open Press.",
+  ];
+
   return (
     <footer
       ref={ref}
@@ -32,7 +38,7 @@ function Footer() {
         initial={{ opacity: 0, y: 20 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.7 }}
-        className="mx-auto max-w-6xl px-6 text-center lg:px-8"
+        className="mx-auto max-w-6xl px-6 lg:px-8"
       >
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-3">
@@ -48,6 +54,20 @@ function Footer() {
           <p className="mt-4 text-xs text-white/30">
             Created for academic purposes. Winter 2026.
           </p>
+        </div>
+
+        {/* Works Cited Section */}
+        <div className="mt-16 border-t border-white/[0.04] pt-12 text-left">
+          <h3 className="mb-6 text-xs font-bold tracking-[0.3em] uppercase text-white/40">
+            Works Cited
+          </h3>
+          <div className="space-y-4">
+            {fillerSources.map((source, i) => (
+              <p key={i} className="text-sm font-medium leading-relaxed text-white/20 transition-colors duration-300 hover:text-white/40">
+                {source}
+              </p>
+            ))}
+          </div>
         </div>
       </motion.div>
     </footer>
