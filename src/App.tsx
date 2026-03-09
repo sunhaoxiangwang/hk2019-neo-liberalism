@@ -29,13 +29,28 @@ function Footer() {
     "(2) BBC News. Hong Kong Protest: \"Nearly Two Million\" Join Demonstration. 17 June 2019, www.bbc.com/news/world-asia-china-48656471.",
   ];
 
+  const contextSources = [
+    "“Hong Kong’s Protests Explained.” Amnesty International, 24 Sept. 2019, www.amnesty.org/en/latest/news/2019/09/hong-kong-protests-explained/. Accessed 2 Mar. 2026.",
+    "Little, Becky. “How Hong Kong Came under “One Country, Two Systems” Rule | HISTORY.” HISTORY, 3 Sept. 2019, www.history.com/articles/hong-kong-china-great-britain. Accessed 3 Mar. 2026.",
+    "News, BBC. “Hong Kong-China Extradition Plans Explained.” Bbc.com, BBC News, 8 Apr. 2019, www.bbc.com/news/world-asia-china-47810723. Accessed 5 Mar. 2026.",
+    "“Opium Wars | Timeline | Britannica.” Encyclopedia Britannica, 2026, www.britannica.com/summary/Opium-Wars-Timeline. Accessed 1 Mar. 2026.",
+    "Tam, Gina Anne. “Colonialism and Nationalism in Hong Kong: Towards True Decolonization.” The Historical Journal, vol. 67, no. 1, 8 Jan. 2024, pp. 169–177, www.cambridge.org/core/journals/historical-journal/article/colonialism-and-nationalism-in-hong-kong-towards-true-decolonization/2B4872312A3E0BB90957E2E428BB5386?, https://doi.org/10.1017/s0018246x2300033x. Accessed 1 Mar. 2026.",
+  ];
+
   const fillerSources = [
     "Filler Source: Lastname, Firstname. \"The Evolution of Digital Protests.\" Academic Journal of Social Change, 2024.",
     "Filler Source: Global Policy Institute. \"Case Studies in Political Resistance: Hong Kong 2019.\" research-repository.org, 2025.",
     "Filler Source: Urban Studies Collective. (2026). Neoliberalism and Local Autonomy in Modern Cities. Open Press.",
   ];
 
-  const sources = pathname === "/" ? homeSources : fillerSources;
+  let sources: string[] = [];
+  if (pathname === "/") {
+    sources = homeSources;
+  } else if (pathname === "/context") {
+    sources = contextSources;
+  } else if (pathname !== "/history") {
+    sources = fillerSources;
+  }
 
   return (
     <footer
@@ -49,18 +64,20 @@ function Footer() {
         className="mx-auto max-w-6xl px-6 lg:px-8"
       >
         {/* Works Cited Section */}
-        <div className="mb-16 text-left">
-          <h3 className="mb-6 text-xs font-bold tracking-[0.3em] uppercase text-white/40">
-            Works Cited
-          </h3>
-          <div className="space-y-4">
-            {sources.map((source, i) => (
-              <p key={i} className="text-sm font-medium leading-relaxed text-white/20 transition-colors duration-300 hover:text-white/40">
-                {source}
-              </p>
-            ))}
+        {sources.length > 0 && (
+          <div className="mb-16 text-left">
+            <h3 className="mb-6 text-xs font-bold tracking-[0.3em] uppercase text-white/40">
+              Works Cited
+            </h3>
+            <div className="space-y-4">
+              {sources.map((source, i) => (
+                <p key={i} className="text-sm font-medium leading-relaxed text-white/20 transition-colors duration-300 hover:text-white/40">
+                  {source}
+                </p>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="flex flex-col items-center gap-4 border-t border-white/[0.04] pt-12">
           <div className="flex items-center gap-3">
