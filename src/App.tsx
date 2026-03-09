@@ -24,8 +24,8 @@ function Footer() {
   const inView = useInView(ref, { once: true });
 
   const sources = [
-    "Ho, Kelly, and Kelly Ho. \"Almost 3,000 People, Including 517 Minors, Prosecuted so Far Over 2019 Hong Kong Protests.\" Hong Kong Free Press HKFP, 27 Oct. 2022, hongkongfp.com/2022/10/27/almost-3000-people-including-517-minors-prosecuted-so-far-over-2019-hong-kong-protests.",
-    "BBC News. Hong Kong Protest: \"Nearly Two Million\" Join Demonstration. 17 June 2019, www.bbc.com/news/world-asia-china-48656471.",
+    "(1) Ho, Kelly, and Kelly Ho. \"Almost 3,000 People, Including 517 Minors, Prosecuted so Far Over 2019 Hong Kong Protests.\" Hong Kong Free Press HKFP, 27 Oct. 2022, hongkongfp.com/2022/10/27/almost-3000-people-including-517-minors-prosecuted-so-far-over-2019-hong-kong-protests.",
+    "(2) BBC News. Hong Kong Protest: \"Nearly Two Million\" Join Demonstration. 17 June 2019, www.bbc.com/news/world-asia-china-48656471.",
   ];
 
   return (

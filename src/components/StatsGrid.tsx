@@ -9,9 +9,9 @@ interface StatCard {
 
 const stats: StatCard[] = [
   {
-    figure: "2M+",
+    figure: "(2) BBC News. Hong Kong Protest: \"Nearly Two Million\" Join Demonstration. 17 June 2019, www.bbc.com/news/world-asia-china-48656471.",
     label: "Peak March Turnout",
-    description: "An estimated two million people took to the streets on June 16, 2019.",
+    description: "An estimated two million people took to the streets on June 16, 2019 (2). ",
   },
   {
     figure: "5",
@@ -23,7 +23,7 @@ const stats: StatCard[] = [
     figure: "9,000+",
     label: "Arrests Made",
     description:
-      "Over nine thousand individuals were arrested in connection with the protests between June 2019 and early 2021.",
+      "Over nine thousand individuals were arrested in connection with the protests between June 2019 and early 2021 (1).",
   },
   {
     figure: "180+",
