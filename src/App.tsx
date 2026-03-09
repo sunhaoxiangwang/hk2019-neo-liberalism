@@ -40,7 +40,21 @@ function Footer() {
         transition={{ duration: 0.7 }}
         className="mx-auto max-w-6xl px-6 lg:px-8"
       >
-        <div className="flex flex-col items-center gap-4">
+        {/* Works Cited Section */}
+        <div className="mb-16 text-left">
+          <h3 className="mb-6 text-xs font-bold tracking-[0.3em] uppercase text-white/40">
+            Works Cited
+          </h3>
+          <div className="space-y-4">
+            {fillerSources.map((source, i) => (
+              <p key={i} className="text-sm font-medium leading-relaxed text-white/20 transition-colors duration-300 hover:text-white/40">
+                {source}
+              </p>
+            ))}
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center gap-4 border-t border-white/[0.04] pt-12">
           <div className="flex items-center gap-3">
             <div className="h-2.5 w-2.5 rounded-full bg-[var(--color-accent)] shadow-[0_0_10px_rgba(230,57,70,0.5)]" />
             <span className="text-sm font-extrabold tracking-[0.25em] uppercase">
@@ -54,20 +68,6 @@ function Footer() {
           <p className="mt-4 text-xs text-white/30">
             Created for academic purposes. Winter 2026.
           </p>
-        </div>
-
-        {/* Works Cited Section */}
-        <div className="mt-16 border-t border-white/[0.04] pt-12 text-left">
-          <h3 className="mb-6 text-xs font-bold tracking-[0.3em] uppercase text-white/40">
-            Works Cited
-          </h3>
-          <div className="space-y-4">
-            {fillerSources.map((source, i) => (
-              <p key={i} className="text-sm font-medium leading-relaxed text-white/20 transition-colors duration-300 hover:text-white/40">
-                {source}
-              </p>
-            ))}
-          </div>
         </div>
       </motion.div>
     </footer>
