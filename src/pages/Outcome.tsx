@@ -3,12 +3,12 @@ import PageContent from "../components/PageContent";
 
 const sections = [
   {
-    heading: "Subsection Title",
+    heading: "Economic Impact",
     body: [
-      "Subsection Text",
-      "Subsection Text",
+      "Economic Impact",
+      "Through 2019, as protests began to intensify, Hong Kong’s economy slowed sharply and entered its first recession in a decade.Additionally, according to a research paper, long period of protest made real GDP per capita significantly decrease. The decrease is larger than some other past crisis.[2]",
     ],
-    pullQuote: "Impactful quote/phrase from article or news source",
+    pullQuote: "Hong Kong’s GDP declined sharply and went into recession.[1]",
     image: "https://images.pexels.com/photos/5343099/pexels-photo-5343099.jpeg",
   },
   {

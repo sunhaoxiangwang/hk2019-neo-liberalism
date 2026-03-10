@@ -57,7 +57,7 @@ function ContentBlock({
                 <img
                   src={image}
                   alt={heading}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-fill"
                 />
               ) : (
                 <div
