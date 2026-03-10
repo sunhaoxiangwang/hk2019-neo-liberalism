@@ -9,25 +9,33 @@ const pages = [
     to: "/history",
     label: "01",
     title: "History of Hong Kong",
-    description: "Section Summary/Description",
+    description:
+      "From colonial rule to the handover — the historical forces that shaped Hong Kong's identity and its fraught relationship with Beijing.",
+    heroImage: "/images/hero-about.jpg",
   },
   {
     to: "/context",
     label: "02",
     title: "Historical Context",
-    description: "Section Summary/Description",
+    description:
+      "The extradition bill, the erosion of \"one country, two systems,\" and the socioeconomic tensions that ignited mass unrest.",
+    heroImage: "/images/hero-context.jpg",
   },
   {
     to: "/goals",
     label: "03",
     title: "Movement Goals",
-    description: "Section Summary/Description",
+    description:
+      "The five demands — from full withdrawal of the bill to genuine universal suffrage — and the uncompromising stance behind each.",
+    heroImage: "/images/hero-goals.jpg",
   },
   {
     to: "/outcome",
     label: "04",
     title: "Protest Outcomes",
-    description: "Section Summary/Description",
+    description:
+      "Economic fallout, the National Security Law, international sanctions, and the lasting social and cultural impact of 2019.",
+    heroImage: "/images/hero-outcome.jpg",
   },
 ];
 
@@ -61,9 +69,16 @@ function PageLinks() {
             >
               <Link
                 to={page.to}
-                className="group flex flex-col justify-between rounded-2xl border border-white/[0.06] bg-[var(--color-surface-elevated)] p-10 transition-all duration-400 hover:-translate-y-1 hover:border-[var(--color-accent)]/20 hover:shadow-[0_8px_40px_rgba(230,57,70,0.06)] sm:flex-row sm:items-center"
+                className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-white/[0.06] bg-[var(--color-surface-elevated)] p-10 transition-all duration-400 hover:-translate-y-1 hover:border-[var(--color-accent)]/20 hover:shadow-[0_8px_40px_rgba(230,57,70,0.06)] sm:flex-row sm:items-center"
               >
-                <div className="flex-1">
+                {/* Background image on hover */}
+                <div
+                  className="pointer-events-none absolute inset-0 bg-cover bg-center opacity-0 transition-opacity duration-500 group-hover:opacity-30"
+                  style={{ backgroundImage: `url(${page.heroImage})` }}
+                />
+                <div className="pointer-events-none absolute inset-0 bg-black/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+
+                <div className="relative z-10 flex-1">
                   <span className="text-xs font-bold tracking-widest text-[var(--color-accent)]">
                     {page.label}
                   </span>
@@ -74,7 +89,7 @@ function PageLinks() {
                     {page.description}
                   </p>
                 </div>
-                <div className="mt-8 flex items-center gap-2 text-sm font-semibold text-[var(--color-accent)] opacity-60 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100 sm:mt-0">
+                <div className="relative z-10 mt-8 flex items-center gap-2 text-sm font-semibold text-[var(--color-accent)] opacity-60 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100 sm:mt-0">
                   Read more
                   <svg
                     className="h-4 w-4"
