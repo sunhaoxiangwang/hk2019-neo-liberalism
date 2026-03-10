@@ -32,7 +32,7 @@ const sections = [
       "The disqualification of democratic candidates from legislative elections further limited political opposition [11]. Altogether, the protests led to a major reconstruction of Hong Kong’s political and legal institutions, strengthening central state authority and diminishing democratic opposition.",
     ],
     pullQuote: "“Masked Hong Kong protesters, which were later banned by city government”",
-    image: "https://images.pexels.com/photos/5343099/pexels-photo-5343099.jpeg",
+    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F70cacce544154cbaa49035b7362b242f?format=webp&width=800&height=1200",
   },
   {
     heading: "Social Outcomes",
@@ -43,7 +43,7 @@ const sections = [
     ],
     pullQuote: "(Figure 1 - Shows the Effects of Expressive Suppression)",
     reversed: true,
-    image: "https://images.pexels.com/photos/5699493/pexels-photo-5699493.jpeg",
+    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F794415f7a5eb48208a33608a3f6e7670?format=webp&width=800&height=1200",
   },
   {
     heading: "Media and Cultural Outcomes",
@@ -53,7 +53,7 @@ const sections = [
       "The cultural climate has since shifted toward soft resistance. Because overt protest is now restricted, subtle symbols or music are used to express identity. However, this has also led to increased censorship, with libraries removing \"politically sensitive\" books and film laws tightening to ban content that might \"endanger national security\".",
     ],
     pullQuote: "\"Be Water\"—the movement's philosophy of fluidity and digital coordination.",
-    image: "https://images.pexels.com/photos/4799534/pexels-photo-4799534.jpeg",
+    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F938fbba688a54379a6be25e313272232?format=webp&width=800&height=1200",
   },
 ];
 
