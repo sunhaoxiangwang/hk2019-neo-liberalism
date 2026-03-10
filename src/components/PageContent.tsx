@@ -8,6 +8,7 @@ interface PageContentProps {
     pullQuote: string;
     reversed?: boolean;
     image?: string;
+    imageContain?: boolean;
   }[];
 }
 
@@ -27,6 +28,7 @@ function ContentBlock({
   pullQuote,
   reversed,
   image,
+  imageContain,
 }: PageContentProps["sections"][number]) {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
@@ -57,7 +59,7 @@ function ContentBlock({
                 <img
                   src={image}
                   alt={heading}
-                  className="h-full w-full object-cover"
+                  className={`h-full w-full ${imageContain ? "object-contain" : "object-cover"}`}
                 />
               ) : (
                 <div

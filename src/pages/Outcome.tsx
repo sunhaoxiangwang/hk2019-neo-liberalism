@@ -11,7 +11,8 @@ const sections = [
       "Long-term economic impact includes capital flight, which could reach almost $76 billion by 2025 as individuals seek to move to other locations. This analysis by Bank of America focused on the migration of private clients in relation to political uncertainties.[5] Even after the protests, Hong Kong faced slower economic normalization, with tourism and retail taking time to fully recover.[6]",
     ],
     pullQuote: "Hong Kong’s GDP declined sharply and went into recession, driven by a 40% drop in tourism arrivals.[1]",
-    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2Fc1f50e6e02c244789d527b6e2ae210b8?format=webp&width=800&height=1200",
+    image: "/images/gdp.png",
+    imageContain: true,
   },
   {
     heading: "International Outcomes",
@@ -32,7 +33,8 @@ const sections = [
       "In response, many engaged in 'expressive suppression'—repressing their emotions to maintain social cohesion. Researchers Tsang and Wong assessed that this suppression often leads to increased stress, anxiety, and depression as individuals ruminate on their emotions rather than expressing them.",
     ],
     pullQuote: "(Figure 1 - Shows the Effects of Expressive Suppression)",
-    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F794415f7a5eb48208a33608a3f6e7670?format=webp&width=800&height=1200",
+    image: "/images/figure1.png",
+    imageContain: true,
   },
   {
     heading: "Political Outcomes",
@@ -43,7 +45,7 @@ const sections = [
     ],
     pullQuote: "“Masked Hong Kong protesters, which were later banned by city government”",
     reversed: true,
-    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F70cacce544154cbaa49035b7362b242f?format=webp&width=800&height=1200",
+    image: "/images/masked_hongkong.jpg",
   },
   {
     heading: "Media and Cultural Outcomes",
