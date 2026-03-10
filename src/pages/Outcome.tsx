@@ -5,7 +5,6 @@ const sections = [
   {
     heading: "Economic Impact",
     body: [
-      "Economic Impact",
       "Through 2019, as protests began to intensify, Hong Kong’s economy slowed sharply and entered its first recession in a decade.Additionally, according to a research paper, long period of protest made real GDP per capita significantly decrease. The decrease is larger than some other past crisis.[2]",
     ],
     pullQuote: "Hong Kong’s GDP declined sharply and went into recession.[1]",
