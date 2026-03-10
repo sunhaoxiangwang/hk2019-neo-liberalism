@@ -71,3 +71,29 @@ export default defineConfig([
   },
 ])
 ```
+# Special Acknowledges
+## Thanks to all the co-workers from HIST 12B Discussion 1M Winter 2026 at UCLA for this project:
+**ACHYUTA, CHAITANYA SOMESWARYA** \
+**BYUN, JESSUP** \
+**COOPER, PAYTEN NICHOL** \
+**CURTIN, PIERCE** \
+**DALLA RICCA, ELISA NANCY** \
+**FUENTES, ELENA VALADEZ** \
+**GARDNER-ORR, OWEN MICHAEL** \
+**HUSSEIN, ABDELRAHMAN AHMED** \
+**IYER, ASHWIN VISWANATH** \
+**JOE, HANNA LEE** \
+**KANG, ETHAN** \
+**MASTORAKOS, NICO LEE** \
+**MEHELBA, YOUSSEF ABDALLAH ALY HASSAN** \
+**MORROW, JAMES** \
+**NAGAI, MIA CHANG** \
+**PERCASTEGUI, KARLA** \
+**SALAZAR, EVAN VICTOR** \
+**SINGH, SAMANYU** \
+**WANG, LEONARD SUNHAOXIANG** \
+**WANG, WILSON** 
+## And Special Thanks to
+**Professor KELLEY, ROBIN** \
+**TA ALVAREZ, LUCIA** \
+for advice
