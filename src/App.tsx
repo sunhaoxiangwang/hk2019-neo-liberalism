@@ -37,6 +37,20 @@ function Footer() {
     "Tam, Gina Anne. “Colonialism and Nationalism in Hong Kong: Towards True Decolonization.” The Historical Journal, vol. 67, no. 1, 8 Jan. 2024, pp. 169–177, www.cambridge.org/core/journals/historical-journal/article/colonialism-and-nationalism-in-hong-kong-towards-true-decolonization/2B4872312A3E0BB90957E2E428BB5386?, https://doi.org/10.1017/s0018246x2300033x. Accessed 1 Mar. 2026.",
   ];
 
+  const outcomeSources = [
+    "[1] https://www.cnbc.com/2019/12/26/hong-kong-protests-impact-on-economy-stock-market-in-five-charts.html",
+    "[2] https://www.researchgate.net/publication/371311609_The_Synthetic_Control_Method_with_Nonlinear_Outcomes_Estimating_the_Impact_of_the_2019_Anti-Extradition_Law_Amendments_Bill_Protests_on_Hong_Kong's_Economy",
+    "[3] https://www.reuters.com/article/us-hongkong-protests-tourism/hong-kong-august-visitors-plunge-40-year-on-year-hotels-half-full-finance-chief-idUSKCN1VU0GO/",
+    "[4] https://www.cbre.com.cn/en/insights/books/china-real-estate-market-outlook-2020/06-hong-kong-sar",
+    "[5] https://www.migrationpolicy.org/article/hong-kong-migration-shuffle",
+    "[6] https://economic-research.bnpparibas.com/html/en-US/Hong-Kong-Difficult-normalisation-economic-growth-10/16/2023,48992",
+    "Albert, Eleanor. Hong Kong’s Freedoms: What China Promised and How They Are Changing. Council on Foreign Relations, 2022.",
+    "Congressional Research Service. Hong Kong’s Autonomy and U.S. Policy. Congressional Research Service, 2021.",
+    "“Hong Kong Bars 12 Opposition Candidates from Election.” BBC News, BBC, 30 July 2020, www.bbc.com/news/world-asia-china-53593187.",
+    "“Hong Kong Leader Carrie Lam to Withdraw Extradition Bill.” BBC News, BBC, 4 September 2019, www.bbc.com/news/world-asia-china-49575381.",
+    "“Hong Kong National Security Law: What is it and is it worrying?” BBC News, BBC, 18 March 2024, www.bbc.com/news/world-asia-china-52765838.",
+  ];
+
   const fillerSources = [
     "Filler Source: Lastname, Firstname. \"The Evolution of Digital Protests.\" Academic Journal of Social Change, 2024.",
     "Filler Source: Global Policy Institute. \"Case Studies in Political Resistance: Hong Kong 2019.\" research-repository.org, 2025.",
@@ -48,6 +62,8 @@ function Footer() {
     sources = homeSources;
   } else if (pathname === "/context") {
     sources = contextSources;
+  } else if (pathname === "/outcome") {
+    sources = outcomeSources;
   } else if (pathname !== "/history") {
     sources = fillerSources;
   }
