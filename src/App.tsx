@@ -3,7 +3,7 @@ import { AnimatePresence, motion, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import History from "./pages/History";
+
 import Context from "./pages/Context";
 import Goals from "./pages/Goals";
 import Outcome from "./pages/Outcome";
@@ -25,8 +25,8 @@ function Footer() {
   const { pathname } = useLocation();
 
   const homeSources = [
-    "(1) Ho, Kelly, and Kelly Ho. \"Almost 3,000 People, Including 517 Minors, Prosecuted so Far Over 2019 Hong Kong Protests.\" Hong Kong Free Press HKFP, 27 Oct. 2022, hongkongfp.com/2022/10/27/almost-3000-people-including-517-minors-prosecuted-so-far-over-2019-hong-kong-protests.",
-    "(2) BBC News. Hong Kong Protest: \"Nearly Two Million\" Join Demonstration. 17 June 2019, www.bbc.com/news/world-asia-china-48656471.",
+    "Ho, Kelly, and Kelly Ho. \"Almost 3,000 People, Including 517 Minors, Prosecuted so Far Over 2019 Hong Kong Protests.\" Hong Kong Free Press HKFP, 27 Oct. 2022, hongkongfp.com/2022/10/27/almost-3000-people-including-517-minors-prosecuted-so-far-over-2019-hong-kong-protests.",
+    "BBC News. Hong Kong Protest: \"Nearly Two Million\" Join Demonstration. 17 June 2019, www.bbc.com/news/world-asia-china-48656471.",
   ];
 
   const contextSources = [
@@ -38,16 +38,16 @@ function Footer() {
   ];
 
   const outcomeSources = [
-    "[1] CNBC. \"Hong Kong Protests' Impact on Economy, Stock Market in Five Charts.\" 26 Dec. 2019. https://www.cnbc.com/2019/12/26/hong-kong-protests-impact-on-economy-stock-market-in-five-charts.html",
-    "[2] ResearchGate. \"The Synthetic Control Method with Nonlinear Outcomes: Estimating the Impact of the 2019 Anti-Extradition Law Amendments Bill Protests on Hong Kong's Economy.\" https://www.researchgate.net/publication/371311609",
-    "[3] Reuters. \"Hong Kong August Visitors Plunge 40% Year-on-Year; Hotels Half Full.\" 2019. https://www.reuters.com/article/us-hongkong-protests-tourism/hong-kong-august-visitors-plunge-40-year-on-year-hotels-half-full-finance-chief-idUSKCN1VU0GO/",
-    "[4] CBRE. \"Hong Kong SAR.\" China Real Estate Market Outlook, 2020. https://www.cbre.com.cn/en/insights/books/china-real-estate-market-outlook-2020/06-hong-kong-sar",
-    "[5] BNP Paribas Economic Research. \"Hong Kong: Difficult Normalisation of Economic Growth.\" 2023. https://economic-research.bnpparibas.com/html/en-US/Hong-Kong-Difficult-normalisation-economic-growth-10/16/2023,48992",
-    "[6] CNN. \"Hong Kong Protesters Face PTSD.\" 2020. https://www.cnn.com/2020/01/10/health/hong-kong-protest-ptsd-intl-hnk",
-    "[7] South China Morning Post. \"Hong Kong Protests: How the City's Reddit Forum LIHKG Has Become a Key Organizing Space.\" https://www.scmp.com/news/hong-kong/society/article/3021224/hong-kong-protests-how-citys-reddit-forum-lihkg-has-become",
-    "[8] CNN. \"China Restricts Apple's AirDrop Function Amid Protests.\" 2022. https://www.cnn.com/2022/11/11/business/china-apple-airdrop-function-restricted-hnk-intl",
-    "[9] The Guardian. \"Hong Kong's Lennon Walls Protest Goes On in Colourful Collages of Sticky Labels.\" 2019. https://www.theguardian.com/world/2019/jul/12/hong-kongs-lennon-walls-protest-goes-on-in-colourful-collages-of-sticky-labels",
-    "[10] Council on Foreign Relations. \"Hong Kong's Freedoms and the China Crackdown.\" https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown",
+    "CNBC. \"Hong Kong Protests' Impact on Economy, Stock Market in Five Charts.\" 26 Dec. 2019. https://www.cnbc.com/2019/12/26/hong-kong-protests-impact-on-economy-stock-market-in-five-charts.html",
+    "ResearchGate. \"The Synthetic Control Method with Nonlinear Outcomes: Estimating the Impact of the 2019 Anti-Extradition Law Amendments Bill Protests on Hong Kong's Economy.\" https://www.researchgate.net/publication/371311609",
+    "Reuters. \"Hong Kong August Visitors Plunge 40% Year-on-Year; Hotels Half Full.\" 2019. https://www.reuters.com/article/us-hongkong-protests-tourism/hong-kong-august-visitors-plunge-40-year-on-year-hotels-half-full-finance-chief-idUSKCN1VU0GO/",
+    "CBRE. \"Hong Kong SAR.\" China Real Estate Market Outlook, 2020. https://www.cbre.com.cn/en/insights/books/china-real-estate-market-outlook-2020/06-hong-kong-sar",
+    "BNP Paribas Economic Research. \"Hong Kong: Difficult Normalisation of Economic Growth.\" 2023. https://economic-research.bnpparibas.com/html/en-US/Hong-Kong-Difficult-normalisation-economic-growth-10/16/2023,48992",
+    "CNN. \"Hong Kong Protesters Face PTSD.\" 2020. https://www.cnn.com/2020/01/10/health/hong-kong-protest-ptsd-intl-hnk",
+    "South China Morning Post. \"Hong Kong Protests: How the City's Reddit Forum LIHKG Has Become a Key Organizing Space.\" https://www.scmp.com/news/hong-kong/society/article/3021224/hong-kong-protests-how-citys-reddit-forum-lihkg-has-become",
+    "CNN. \"China Restricts Apple's AirDrop Function Amid Protests.\" 2022. https://www.cnn.com/2022/11/11/business/china-apple-airdrop-function-restricted-hnk-intl",
+    "The Guardian. \"Hong Kong's Lennon Walls Protest Goes On in Colourful Collages of Sticky Labels.\" 2019. https://www.theguardian.com/world/2019/jul/12/hong-kongs-lennon-walls-protest-goes-on-in-colourful-collages-of-sticky-labels",
+    "Council on Foreign Relations. \"Hong Kong's Freedoms and the China Crackdown.\" https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown",
   ];
 
   const goalsSources = [
@@ -85,7 +85,7 @@ function Footer() {
     sources = outcomeSources;
   } else if (pathname === "/goals") {
     sources = goalsSources;
-  } else if (pathname !== "/history") {
+  } else {
     sources = fillerSources;
   }
 
@@ -116,19 +116,12 @@ function Footer() {
           </div>
         )}
 
-        <div className="flex flex-col items-center gap-4 border-t border-white/[0.04] pt-12">
-          <div className="flex items-center gap-3">
-            <div className="h-2.5 w-2.5 rounded-full bg-[var(--color-accent)] shadow-[0_0_10px_rgba(230,57,70,0.5)]" />
-            <span className="text-sm font-extrabold tracking-[0.25em] uppercase">
-              HK 2019
-            </span>
-          </div>
-          <p className="max-w-md text-sm leading-relaxed text-[var(--color-text-secondary)]">
-            A digital historical project examining the 2019 Hong Kong protests
-            through the lens of neoliberalism and political resistance.
+        <div className="flex flex-col items-center gap-6 border-t border-white/[0.04] pt-12 text-center">
+          <p className="max-w-2xl text-lg font-semibold leading-relaxed text-white">
+            This project on the 2019 Hong Kong protests was created for History of Neoliberalism 12B (Winter 2026).
           </p>
-          <p className="mt-4 text-xs text-white/30">
-            Created for academic purposes. Winter 2026.
+          <p className="max-w-2xl text-sm leading-relaxed text-white/40">
+            Discussion Group 1M &middot; Teaching Assistant: Lucia Alvarez &middot; Course Instructor: Professor Robin D. G. Kelley &middot; Department of History, UCLA
           </p>
         </div>
       </motion.div>
@@ -150,7 +143,7 @@ function AnimatedRoutes() {
       >
         <Routes location={location}>
           <Route path="/" element={<Home />} />
-          <Route path="/history" element={<History />} />
+
           <Route path="/context" element={<Context />} />
           <Route path="/goals" element={<Goals />} />
           <Route path="/outcome" element={<Outcome />} />

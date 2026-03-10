@@ -3,7 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "History of Hong Kong", to: "/history" },
+
   { label: "Historical Context", to: "/context" },
   { label: "Movement Goals", to: "/goals" },
   { label: "Protest Outcomes", to: "/outcome" },
