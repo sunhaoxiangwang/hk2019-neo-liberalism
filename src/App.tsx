@@ -44,11 +44,11 @@ function Footer() {
     "[4] https://www.cbre.com.cn/en/insights/books/china-real-estate-market-outlook-2020/06-hong-kong-sar",
     "[5] https://www.migrationpolicy.org/article/hong-kong-migration-shuffle",
     "[6] https://economic-research.bnpparibas.com/html/en-US/Hong-Kong-Difficult-normalisation-economic-growth-10/16/2023,48992",
-    "Albert, Eleanor. Hong Kong’s Freedoms: What China Promised and How They Are Changing. Council on Foreign Relations, 2022.",
-    "Congressional Research Service. Hong Kong’s Autonomy and U.S. Policy. Congressional Research Service, 2021.",
-    "“Hong Kong Bars 12 Opposition Candidates from Election.” BBC News, BBC, 30 July 2020, www.bbc.com/news/world-asia-china-53593187.",
-    "“Hong Kong Leader Carrie Lam to Withdraw Extradition Bill.” BBC News, BBC, 4 September 2019, www.bbc.com/news/world-asia-china-49575381.",
-    "“Hong Kong National Security Law: What is it and is it worrying?” BBC News, BBC, 18 March 2024, www.bbc.com/news/world-asia-china-52765838.",
+    "[7] Albert, Eleanor. Hong Kong’s Freedoms: What China Promised and How They Are Changing. Council on Foreign Relations, 2022.",
+    "[8] Congressional Research Service. Hong Kong’s Autonomy and U.S. Policy. Congressional Research Service, 2021.",
+    "[9] “Hong Kong Leader Carrie Lam to Withdraw Extradition Bill.” BBC News, BBC, 4 September 2019, www.bbc.com/news/world-asia-china-49575381.",
+    "[10] “Hong Kong National Security Law: What is it and is it worrying?” BBC News, BBC, 18 March 2024, www.bbc.com/news/world-asia-china-52765838.",
+    "[11] “Hong Kong Bars 12 Opposition Candidates from Election.” BBC News, BBC, 30 July 2020, www.bbc.com/news/world-asia-china-53593187.",
   ];
 
   const fillerSources = [

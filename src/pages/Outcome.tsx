@@ -10,15 +10,15 @@ const sections = [
       "One of the reasons for such a sharp decline in GDP was a significant drop in tourism; arrivals in August 2019 went down 40% year-on-year.[3] Total retail sales also declined the sharpest since 1998, with a double-digit fall in some quarters of 2019.[4]",
       "Long-term economic impact includes capital flight, which could reach almost $76 billion by 2025 as individuals seek to move to other locations. This analysis by Bank of America focused on the migration of private clients in relation to political uncertainties.[5] Even after the protests, Hong Kong faced slower economic normalization, with tourism and retail taking time to fully recover.[6]",
     ],
-    pullQuote: "Hong Kong’s GDP declined sharply and went into recession, driven by a 40% drop in tourism arrivals.",
+    pullQuote: "Hong Kong’s GDP declined sharply and went into recession, driven by a 40% drop in tourism arrivals.[1]",
     image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2Fc1f50e6e02c244789d527b6e2ae210b8?format=webp&width=800&height=1200",
   },
   {
     heading: "International Outcomes",
     body: [
-      "Although the 2019 Hong Kong protests did not lead to democratic reforms from Beijing, they still had major international effects. The protests brought global attention to Hong Kong’s political situation and increased tensions between the United States and China. As a result, Hong Kong became an important symbol in the larger global debate between democratic values and authoritarian government systems (Albert).",
-      "The movement transformed local opposition into a major international conflict. As images of mass demonstrations and police crackdowns circulated worldwide, foreign governments increasingly framed Hong Kong not simply as an internal Chinese issue but as a test of Beijing’s commitment to the “One Country, Two Systems” framework (Albert).",
-      "The United States responded by passing the Hong Kong Human Rights and Democracy Act of 2019, which required annual assessments of autonomy and authorized sanctions. The U.S. government later imposed sanctions on several officials and ended Hong Kong’s special trade status (Congressional Research Service). Governments worldwide raised concerns about civil liberties, turning Hong Kong into an important issue in broader global debates about democracy and authoritarian rule.",
+      "Although the 2019 Hong Kong protests did not lead to democratic reforms from Beijing, they still had major international effects. The protests brought global attention to Hong Kong’s political situation and increased tensions between the United States and China. As a result, Hong Kong became an important symbol in the larger global debate between democratic values and authoritarian government systems [7].",
+      "The movement transformed local opposition into a major international conflict. As images of mass demonstrations and police crackdowns circulated worldwide, foreign governments increasingly framed Hong Kong not simply as an internal Chinese issue but as a test of Beijing’s commitment to the “One Country, Two Systems” framework [7].",
+      "The United States responded by passing the Hong Kong Human Rights and Democracy Act of 2019, which required annual assessments of autonomy and authorized sanctions. The U.S. government later imposed sanctions on several officials and ended Hong Kong’s special trade status [8]. Governments worldwide raised concerns about civil liberties, turning Hong Kong into an important issue in broader global debates about democracy and authoritarian rule.",
     ],
     pullQuote: "“Protestors rallying outside in opposition to the extradition bill ahead of the G20 Summit”",
     reversed: true,
@@ -27,9 +27,9 @@ const sections = [
   {
     heading: "Political Outcomes",
     body: [
-      "The protests produced major political and legal consequences that resulted in a significant reduction of autonomy. Chief Executive Carrie Lam, despite massive opposition, pushed for the 2019 Fugitive Offenders bill and refused to engage with protesters (“Hong Kong Leader”). After months of demonstrations, the bill was formally withdrawn in September 2019 (“Hong Kong National Security Law”).",
-      "However, the protests led to the introduction of stronger government control. Authorities introduced emergency measures such as a face mask ban to limit anonymous demonstration (“Hong Kong National Security Law”). Long-term, the political system shifted toward mainland China's control through the National Security Law, which criminalized secession, subversion, and collusion (“Hong Kong National Security Law”).",
-      "The disqualification of democratic candidates from legislative elections further limited political opposition (“Hong Kong Bars”). Altogether, the protests led to a major reconstruction of Hong Kong’s political and legal institutions, strengthening central state authority and diminishing democratic opposition.",
+      "The protests produced major political and legal consequences that resulted in a significant reduction of autonomy. Chief Executive Carrie Lam, despite massive opposition, pushed for the 2019 Fugitive Offenders bill and refused to engage with protesters [9]. After months of demonstrations, the bill was formally withdrawn in September 2019 [10].",
+      "However, the protests led to the introduction of stronger government control. Authorities introduced emergency measures such as a face mask ban to limit anonymous demonstration [10]. Long-term, the political system shifted toward mainland China's control through the National Security Law, which criminalized secession, subversion, and collusion [10].",
+      "The disqualification of democratic candidates from legislative elections further limited political opposition [11]. Altogether, the protests led to a major reconstruction of Hong Kong’s political and legal institutions, strengthening central state authority and diminishing democratic opposition.",
     ],
     pullQuote: "“Masked Hong Kong protesters, which were later banned by city government”",
     image: "https://images.pexels.com/photos/5343099/pexels-photo-5343099.jpeg",
