@@ -25,16 +25,6 @@ const sections = [
     image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F503adba370d34432bca82718e7c738a1?format=webp&width=800&height=1200",
   },
   {
-    heading: "Political Outcomes",
-    body: [
-      "The protests produced major political and legal consequences that resulted in a significant reduction of autonomy. Chief Executive Carrie Lam, despite massive opposition, pushed for the 2019 Fugitive Offenders bill and refused to engage with protesters [9]. After months of demonstrations, the bill was formally withdrawn in September 2019 [10].",
-      "However, the protests led to the introduction of stronger government control. Authorities introduced emergency measures such as a face mask ban to limit anonymous demonstration [10]. Long-term, the political system shifted toward mainland China's control through the National Security Law, which criminalized secession, subversion, and collusion [10].",
-      "The disqualification of democratic candidates from legislative elections further limited political opposition [11]. Altogether, the protests led to a major reconstruction of Hong Kong’s political and legal institutions, strengthening central state authority and diminishing democratic opposition.",
-    ],
-    pullQuote: "“Masked Hong Kong protesters, which were later banned by city government”",
-    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F70cacce544154cbaa49035b7362b242f?format=webp&width=800&height=1200",
-  },
-  {
     heading: "Social Outcomes",
     body: [
       "Increased levels of PTSD, depression, and polarization were major social outcomes. A study in The Lancet found that 2 million adults—roughly a third of the population—experienced PTSD symptoms. Probable depression was identified in over 590,000 adults, a vast increase from 2009. Researchers noted that the actual numbers, including youth, are likely higher.",
@@ -42,8 +32,18 @@ const sections = [
       "In response, many engaged in 'expressive suppression'—repressing their emotions to maintain social cohesion. Researchers Tsang and Wong assessed that this suppression often leads to increased stress, anxiety, and depression as individuals ruminate on their emotions rather than expressing them.",
     ],
     pullQuote: "(Figure 1 - Shows the Effects of Expressive Suppression)",
-    reversed: true,
     image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F794415f7a5eb48208a33608a3f6e7670?format=webp&width=800&height=1200",
+  },
+  {
+    heading: "Political Outcomes",
+    body: [
+      "The protests produced major political and legal consequences that resulted in a significant reduction of autonomy. Chief Executive Carrie Lam, despite massive opposition, pushed for the 2019 Fugitive Offenders bill and refused to engage with protesters [9]. After months of demonstrations, the bill was formally withdrawn in September 2019 [10].",
+      "However, the protests led to the introduction of stronger government control. Authorities introduced emergency measures such as a face mask ban to limit anonymous demonstration [10]. Long-term, the political system shifted toward mainland China's control through the National Security Law, which criminalized secession, subversion, and collusion [10].",
+      "The disqualification of democratic candidates from legislative elections further limited political opposition [11]. Altogether, the protests led to a major reconstruction of Hong Kong’s political and legal institutions, strengthening central state authority and diminishing democratic opposition.",
+    ],
+    pullQuote: "“Masked Hong Kong protesters, which were later banned by city government”",
+    reversed: true,
+    image: "https://cdn.builder.io/api/v1/image/assets%2Fd701d1deef3448218324fe57b8da5cda%2F70cacce544154cbaa49035b7362b242f?format=webp&width=800&height=1200",
   },
   {
     heading: "Media and Cultural Outcomes",
