@@ -70,12 +70,6 @@ function Footer() {
     "https://www.amnesty.org/fr/wp-content/uploads/2021/05/ASA1702572019ENGLISH.pdf",
   ];
 
-  const fillerSources = [
-    "Filler Source: Lastname, Firstname. \"The Evolution of Digital Protests.\" Academic Journal of Social Change, 2024.",
-    "Filler Source: Global Policy Institute. \"Case Studies in Political Resistance: Hong Kong 2019.\" research-repository.org, 2025.",
-    "Filler Source: Urban Studies Collective. (2026). Neoliberalism and Local Autonomy in Modern Cities. Open Press.",
-  ];
-
   let sources: string[] = [];
   if (pathname === "/") {
     sources = homeSources;
