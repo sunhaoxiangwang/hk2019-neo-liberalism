@@ -6,8 +6,16 @@ import StatsGrid from "../components/StatsGrid";
 
 const pages = [
   {
-    to: "/context",
+    to: "/history",
     label: "01",
+    title: "History of Hong Kong",
+    description:
+      "From colonial rule to the handover — the historical forces that shaped Hong Kong's identity and its fraught relationship with Beijing.",
+    heroImage: "/images/hero-about.jpg",
+  },
+  {
+    to: "/context",
+    label: "02",
     title: "Historical Context",
     description:
       "The extradition bill, the erosion of \"one country, two systems,\" and the socioeconomic tensions that ignited mass unrest.",
@@ -15,7 +23,7 @@ const pages = [
   },
   {
     to: "/goals",
-    label: "02",
+    label: "03",
     title: "Movement Goals",
     description:
       "The five demands — from full withdrawal of the bill to genuine universal suffrage — and the uncompromising stance behind each.",
@@ -23,7 +31,7 @@ const pages = [
   },
   {
     to: "/outcome",
-    label: "03",
+    label: "04",
     title: "Protest Outcomes",
     description:
       "Economic fallout, the National Security Law, international sanctions, and the lasting social and cultural impact of 2019.",
